@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>脱・痛スピ＆実績思考習得スクール | ボストン</title>
+    <meta name="description" content="借金1億・裏切り・詐欺被害の地獄から「脳科学×スピリチュアル」で年商6億へ。人生を物理的にひっくり返す唯一の解。">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Shippori+Mincho:wght@800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            line-height: 2.3; /* 全体の行間をさらに広く設定 */
+            letter-spacing: 0.05em; /* 文字間も少し広げて読みやすく */
+        }
+        .font-mincho {
+            font-family: 'Shippori+Mincho', serif;
+        }
+        .text-gold {
+            color: #b38728;
+            background: linear-gradient(to right, #b38728, #d4af37, #8a6e2f);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 800;
+        }
+        .bg-gold {
+            background: linear-gradient(45deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+        }
+        .border-gold {
+            border-image: linear-gradient(to right, #bf953f, #b38728, #8a6e2f) 1;
+        }
+        .cta-button {
+            background: linear-gradient(180deg, #D4AF37 0%, #AA771C 100%);
+            box-shadow: 0 4px 15px rgba(170, 119, 28, 0.3);
+            transition: all 0.3s ease;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(170, 119, 28, 0.4);
+            filter: brightness(1.1);
+        }
+        .text-shadow-white {
+            text-shadow: 2px 2px 4px rgba(255,255,255,0.8);
+        }
+        .triangle-down {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid #D4AF37;
+            margin: 0 auto;
+        }
+        .card-shadow {
+            box-shadow: 0 15px 40px -5px rgba(0, 0, 0, 0.08); /* 影も少し柔らかく広げる */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- 1. ヘッドライン (FV) -->
+    <header class="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
+        <div class="absolute inset-0 z-0 opacity-10">
+            <img src="https://images.unsplash.com/photo-1555431189-0fabf2667795?q=80&w=2828&auto=format&fit=crop" alt="Background Atmosphere" class="w-full h-full object-cover grayscale">
+            <div class="absolute inset-0 bg-gradient-to-b from-white via-white/80 to-white"></div>
+        </div>
+
+        <div class="relative z-10 container mx-auto px-4 text-center py-20 md:py-32">
+            <p class="text-red-600 font-bold tracking-widest mb-10 bg-red-50 inline-block px-8 py-3 border border-red-600 rounded-sm">
+                警告：本気で人生を変える覚悟のない者は立ち去れ
+            </p>
+            
+            <h1 class="text-2xl md:text-4xl font-bold mb-12 leading-loose text-gray-900">
+                引き寄せ難民、スピリチュアル貧乏、<br>
+                人生の迷子たちへ告ぐ。<br>
+                <span class="text-red-600 bg-red-50/80 px-4 py-2 mt-6 inline-block rounded-sm">「フワフワした現実逃避」は、</span><br>
+                <span class="text-red-600 bg-red-50/80 px-4 py-2 mt-4 inline-block rounded-sm">今ここで終わりにしろ。</span>
+            </h1>
+
+            <div class="my-16 border-t border-b border-yellow-600/30 py-10 bg-white/80 backdrop-blur-sm shadow-sm">
+                <p class="text-base md:text-lg text-gray-600 font-bold mb-6">借金1億・裏切り・詐欺被害の地獄から</p>
+                <p class="text-xl md:text-3xl font-black text-gray-900 leading-relaxed mb-6">
+                    「脳科学×スピリチュアル」で<br class="md:hidden">年商6億へV字回復した男が教える
+                </p>
+                <p class="text-lg md:text-2xl mt-4 text-gold font-bold">人生を物理的にひっくり返す唯一の解</p>
+            </div>
+
+            <div class="mb-20">
+                <h2 class="text-4xl md:text-6xl font-black font-mincho tracking-tight text-gray-900 leading-tight">
+                    <span class="block text-2xl md:text-3xl mb-6 font-sans font-bold text-gray-800">脱・痛スピ＆実績思考習得スクール</span>
+                    <span class="text-gold block mt-4" style="text-shadow: 1px 1px 0px rgba(0,0,0,0.1);">光と闇を統合し、<br>現実を支配する180日間</span>
+                </h2>
+            </div>
+
+            <!-- 
+                【FVボタン設定】
+                現在はページ下部の価格セクション(#offer)へスクロールします。
+                いきなり決済画面へ飛ばしたい場合は href="#offer" を href="https://決済URL" に変更してください。
+            -->
+            <a href="#offer" class="cta-button inline-block w-full max-w-xl font-black text-xl md:text-2xl py-8 px-8 rounded-lg animate-pulse leading-snug">
+                今すぐ「実績思考」を手に入れ、<br>地獄から這い上がる
+                <span class="block text-sm font-bold mt-3 text-white/90">※期間限定募集 / 審査制</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- 2. 導入 (共感・問題提起) -->
+    <!-- py-24 -> py-32 に増量 -->
+    <section class="py-32 bg-gray-50 relative">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-20 text-gray-900 leading-relaxed">
+                あなたは今、<br>
+                <span class="text-red-600 border-b-4 border-red-600 pb-2">こんな「地獄」の中にいませんか？</span>
+            </h2>
+
+            <!-- p-10 -> p-12 に増量 -->
+            <div class="bg-white border border-gray-200 p-12 rounded-xl card-shadow mb-20">
+                <!-- space-y-8 -> space-y-10 に増量 -->
+                <ul class="space-y-10 text-lg md:text-xl font-bold text-gray-800">
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-red-600 mt-2 mr-6"></i>
+                        <span class="leading-relaxed">「ありがとう」を1万回唱えても、借金は増える一方だ。</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-red-600 mt-2 mr-6"></i>
+                        <span class="leading-relaxed">引き寄せの法則を勉強すればするほど、孤独になっている。</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-red-600 mt-2 mr-6"></i>
+                        <span class="leading-relaxed">「ありのまま」でいたら、誰からも相手にされなくなった。</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-red-600 mt-2 mr-6"></i>
+                        <span class="leading-relaxed">現実を見るのが怖くて、スピリチュアル動画に逃げ込んでいる。</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="text-center space-y-10">
+                <p class="text-2xl font-bold text-gold">図星でしょう。</p>
+                <p class="leading-loose text-gray-700 font-medium text-lg">
+                    なぜなら、これはかつての私の姿そのものだからです。<br>
+                    はっきり言います。<br>
+                    <span class="text-gray-900 font-bold text-xl border-b border-gray-400 pb-2 inline-block mt-4">あなたが悪いのではありません。</span>
+                </p>
+                <div class="bg-red-50 border border-red-200 p-10 rounded-lg inline-block shadow-sm mt-8">
+                    <p class="text-xl md:text-2xl font-black text-red-600 leading-relaxed">
+                        「スピリチュアル＝現実逃避の道具」<br>
+                        という誤った使い方が、<br>
+                        あなたの人生を破壊しているのです。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="triangle-down mt-20"></div>
+    </section>
+
+    <!-- 3. ストーリー (信用・権威性) -->
+    <section class="py-32 bg-white text-gray-900">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-2xl md:text-4xl font-bold text-center mb-24 font-mincho leading-loose text-black">
+                信じていた仲間に裏切られ、<br>一夜にして借金1億円。<br>
+                私が「光」を見るために直視した、<br><span class="text-red-600 text-3xl md:text-5xl mt-4 inline-block">漆黒の「闇」。</span>
+            </h2>
+
+            <div class="border-l-4 border-yellow-500 pl-10 ml-4 md:ml-0 space-y-16 relative">
+                <!-- Timeline items -->
+                <div class="relative">
+                    <span class="absolute -left-12 top-2 bg-white border-2 border-yellow-500 rounded-full w-6 h-6"></span>
+                    <h3 class="text-xl font-bold text-yellow-700 mb-6">転落の始まり</h3>
+                    <p class="text-gray-600 leading-loose">順調だったビジネス。しかし、3人の仲間の裏切りと詐欺により全てが崩壊。残ったのは1億円の借金と、自殺すら考えた絶望の日々。</p>
+                </div>
+                
+                <div class="relative">
+                    <span class="absolute -left-12 top-2 bg-white border-2 border-yellow-500 rounded-full w-6 h-6"></span>
+                    <h3 class="text-xl font-bold text-yellow-700 mb-6">間違った救済</h3>
+                    <p class="text-gray-600 leading-loose">「思考は現実化する」と信じ、スピリチュアルにすがった。しかし、金利という冷酷な現実は待ってくれない。祈れば祈るほど、状況は悪化した。</p>
+                </div>
+
+                <div class="relative">
+                    <span class="absolute -left-12 top-2 bg-white border-2 border-yellow-500 rounded-full w-6 h-6"></span>
+                    <h3 class="text-xl font-bold text-yellow-700 mb-6">覚醒：光と闇の統合</h3>
+                    <p class="text-gray-600 leading-loose">気づいた真理。「光を見るためには、闇を直視しなければならない」。脳科学を徹底的に学び、脳の回路を物理的に書き換える「実績思考」を開発。</p>
+                </div>
+
+                <div class="relative">
+                    <span class="absolute -left-12 top-2 bg-yellow-500 rounded-full w-6 h-6 shadow-md"></span>
+                    <h3 class="text-2xl font-black text-gray-900 mb-6">V字回復と現在</h3>
+                    <p class="text-lg font-bold text-gray-800 leading-loose">1年で完済。その後、年商6億へ。<br>私が特別だったわけではない。「脳の使い方」を変え、現実（闇）から逃げるのをやめただけだ。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. 解決策 (メソッドの提示) -->
+    <section class="py-32 bg-gray-50 border-t border-gray-200">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-20 text-gray-900 leading-relaxed">
+                なぜ、あなたの願いは叶わないのか？<br>
+                <span class="text-gold block mt-4">脳科学が暴く「痛スピ病」の正体</span>
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-12 mb-20">
+                <!-- Bad Case -->
+                <div class="bg-gray-200 border border-gray-300 p-12 rounded-xl opacity-90 transition duration-500">
+                    <h3 class="text-xl font-bold text-gray-600 mb-8 text-center border-b border-gray-400 pb-6">従来のスピリチュアル</h3>
+                    <div class="space-y-8 text-center">
+                        <div class="p-8 bg-gray-100 rounded border border-gray-300">
+                            <i class="fas fa-eye-slash text-3xl mb-4 text-gray-400"></i>
+                            <p class="text-gray-700 font-bold">嫌なこと（闇）を見ない</p>
+                        </div>
+                        <div class="text-2xl text-gray-400">↓</div>
+                        <div class="p-8 bg-gray-100 rounded border border-gray-300">
+                            <i class="fas fa-brain text-3xl mb-4 text-gray-400"></i>
+                            <p class="text-gray-700 font-bold">脳が危険を察知せずサボる<br><span class="text-sm font-normal">(ホメオスタシス)</span></p>
+                        </div>
+                        <div class="text-2xl text-gray-400">↓</div>
+                        <div class="p-8 bg-white border border-red-300 rounded text-red-500 font-bold shadow-sm">
+                            <p>現状維持・衰退</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Good Case -->
+                <div class="bg-white border-2 border-yellow-500 p-12 rounded-xl card-shadow relative overflow-hidden">
+                    <div class="bg-yellow-500 text-white font-bold px-6 py-2 text-sm absolute top-0 right-0 rounded-bl-lg">推奨</div>
+                    
+                    <h3 class="text-xl font-bold text-yellow-700 mb-8 text-center border-b border-yellow-200 pb-6 mt-2">ボストン流・実績思考</h3>
+                    <div class="space-y-8 text-center">
+                        <div class="p-8 bg-yellow-50 rounded border border-yellow-200">
+                            <i class="fas fa-eye text-3xl mb-4 text-yellow-600"></i>
+                            <p class="font-bold text-gray-900">闇を直視する</p>
+                        </div>
+                        <div class="text-2xl text-yellow-500">↓</div>
+                        <div class="p-8 bg-yellow-50 rounded border border-yellow-200">
+                            <i class="fas fa-bolt text-3xl mb-4 text-yellow-600"></i>
+                            <p class="font-bold text-gray-900">強烈なエネルギー発生<br>小さな実績で脳を書き換え</p>
+                        </div>
+                        <div class="text-2xl text-yellow-500">↓</div>
+                        <div class="p-8 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white rounded font-bold shadow-md">
+                            <p class="text-xl">次元上昇 (現実変容)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center bg-white p-12 border border-yellow-400 rounded-xl card-shadow max-w-3xl mx-auto">
+                <p class="text-2xl md:text-3xl font-black font-mincho text-black mb-8 leading-relaxed">
+                    「ワクワク」はいらない。<br>
+                    <span class="text-gold">「実績」だけを信じろ。</span>
+                </p>
+                <p class="text-gray-600 font-medium text-lg leading-loose">脳は「できたこと」しか信じない。だから、まずは小さな実績を作り、脳を騙すのだ。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. 商品詳細 (カリキュラム) -->
+    <section class="py-32 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-24 text-gray-900 leading-relaxed">
+                これが、あなたを「実績者」へと<br>改造する<span class="text-gold">全カリキュラム</span>だ。
+            </h2>
+
+            <div class="space-y-10">
+                <!-- Card 1 -->
+                <div class="bg-white border border-gray-200 border-l-8 border-l-yellow-600 p-10 rounded-r-lg card-shadow flex flex-col md:flex-row items-center gap-10">
+                    <div class="text-yellow-600 text-5xl w-24 text-center"><i class="fas fa-brain"></i></div>
+                    <div class="flex-1 text-center md:text-left">
+                        <h3 class="text-2xl text-yellow-700 font-bold mb-4">【Mind】脳のOS書き換えプログラム</h3>
+                        <p class="text-gray-600 leading-loose">痛スピ思考の完全デトックス / ホメオスタシス打破の技術。負け癖がついた脳を、勝ち続ける脳へと物理的に書き換える。</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white border border-gray-200 border-l-8 border-l-yellow-600 p-10 rounded-r-lg card-shadow flex flex-col md:flex-row items-center gap-10">
+                    <div class="text-yellow-600 text-5xl w-24 text-center"><i class="fas fa-yin-yang"></i></div>
+                    <div class="flex-1 text-center md:text-left">
+                        <h3 class="text-2xl text-yellow-700 font-bold mb-4">【Work】光と闇の統合ワーク（極秘）</h3>
+                        <p class="text-gray-600 leading-loose">過去のトラウマを燃料に変える錬金術 / 闇のエネルギー転用。あなたの最大のコンプレックスこそが、最大の武器になる。</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white border border-gray-200 border-l-8 border-l-yellow-600 p-10 rounded-r-lg card-shadow flex flex-col md:flex-row items-center gap-10">
+                    <div class="text-yellow-600 text-5xl w-24 text-center"><i class="fas fa-chart-line"></i></div>
+                    <div class="flex-1 text-center md:text-left">
+                        <h3 class="text-2xl text-yellow-700 font-bold mb-4">【Action】実績ゼロからの資産構築</h3>
+                        <p class="text-gray-600 leading-loose">ビジネス、投資、人間関係…具体的に「結果」を出すためのロードマップ。精神論ではなく、数字を作る技術。</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white border border-gray-200 border-l-8 border-l-yellow-600 p-10 rounded-r-lg card-shadow flex flex-col md:flex-row items-center gap-10">
+                    <div class="text-yellow-600 text-5xl w-24 text-center"><i class="fas fa-users"></i></div>
+                    <div class="flex-1 text-center md:text-left">
+                        <h3 class="text-2xl text-yellow-700 font-bold mb-4">【Environment】強制進化コミュニティ</h3>
+                        <p class="text-gray-600 leading-loose">24時間365日、ボストンと仲間が常駐 / 日報・実績報告システム。逃げ場をなくし、強制的に進化せざるを得ない環境。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bonus -->
+            <div class="mt-20 bg-gray-50 border border-yellow-500 p-12 rounded-xl text-center shadow-md">
+                <h3 class="text-2xl font-bold text-gray-900 mb-10">参加者限定特典（ボーナス）</h3>
+                <ul class="space-y-8 text-left inline-block mx-auto">
+                    <li class="flex items-start text-lg text-gray-700">
+                        <i class="fas fa-gift text-yellow-600 mr-5 mt-1"></i>
+                        <span class="leading-relaxed">ボストンによるグループコンサル参加権（月1回）</span>
+                    </li>
+                    <li class="flex items-start text-lg text-gray-700">
+                        <i class="fas fa-gift text-yellow-600 mr-5 mt-1"></i>
+                        <span class="leading-relaxed">1億円借金返済時の「生々しい思考ノート」PDF</span>
+                    </li>
+                    <li class="flex items-start text-lg text-gray-700">
+                        <i class="fas fa-gift text-yellow-600 mr-5 mt-1"></i>
+                        <span class="leading-relaxed">【緊急時用】メンタルが落ちた時の即効回復音声</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. 証拠 (お客様の声) -->
+    <section class="py-32 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-20 text-gray-900 leading-relaxed">
+                一足先に「こちらの世界」へ来た<br>仲間たちの<span class="text-gold">嘘偽りのない告白</span>
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Voice 1 -->
+                <div class="bg-white p-10 rounded-lg card-shadow border border-gray-100 flex flex-col">
+                    <div class="text-center mb-8">
+                        <span class="bg-yellow-500 text-white font-bold px-5 py-2 rounded-full text-sm shadow-md inline-block">
+                            借金300万・離婚寸前の主婦
+                        </span>
+                    </div>
+                    <p class="text-gray-600 italic mb-8 leading-loose flex-grow">「ボストンさんに『甘えるな』と怒られたあの日が、人生の分岐点でした。半年で完済し、今は夫とも新婚当時より仲良しです。」</p>
+                    <p class="text-right font-bold text-gray-900 border-t border-gray-100 pt-6">- K.S 様 (40代)</p>
+                </div>
+
+                <!-- Voice 2 -->
+                <div class="bg-white p-10 rounded-lg card-shadow border border-gray-100 flex flex-col">
+                     <div class="text-center mb-8">
+                        <span class="bg-yellow-500 text-white font-bold px-5 py-2 rounded-full text-sm shadow-md inline-block">
+                            パワハラ鬱・スピ依存の会社員
+                        </span>
+                    </div>
+                    <p class="text-gray-600 italic mb-8 leading-loose flex-grow">「フワフワした妄想を捨てたら、皮肉にも一番欲しかったお金が手に入りました。副業で月収50万を超え、来月独立します。」</p>
+                    <p class="text-right font-bold text-gray-900 border-t border-gray-100 pt-6">- T.M 様 (30代)</p>
+                </div>
+
+                <!-- Voice 3 -->
+                <div class="bg-white p-10 rounded-lg card-shadow border border-gray-100 flex flex-col">
+                    <div class="text-center mb-8">
+                        <span class="bg-yellow-500 text-white font-bold px-5 py-2 rounded-full text-sm shadow-md inline-block">
+                            起業失敗・借金500万
+                        </span>
+                    </div>
+                    <p class="text-gray-600 italic mb-8 leading-loose flex-grow">「『夢を見るな、数字を見ろ』という言葉が胸に刺さりました。フワフワした引き寄せを辞め、泥臭く行動した結果、借金完済どころか年商3000万を超えました。」</p>
+                    <p class="text-right font-bold text-gray-900 border-t border-gray-100 pt-6">- Y.K 様 (30代 男性)</p>
+                </div>
+
+                <!-- Voice 4 -->
+                <div class="bg-white p-10 rounded-lg card-shadow border border-gray-100 flex flex-col">
+                    <div class="text-center mb-8">
+                        <span class="bg-yellow-500 text-white font-bold px-5 py-2 rounded-full text-sm shadow-md inline-block">
+                            セミナージプシー・資格マニア
+                        </span>
+                    </div>
+                    <p class="text-gray-600 italic mb-8 leading-loose flex-grow">「何百万円も資格講座に使い込んでいましたが、1円にもなっていませんでした。ここに入って『実績』への執着が変わりました。先月、ついに月商100万を達成しました。」</p>
+                    <p class="text-right font-bold text-gray-900 border-t border-gray-100 pt-6">- A.I 様 (40代 女性)</p>
+                </div>
+
+                <!-- Voice 5 -->
+                <div class="bg-white p-10 rounded-lg card-shadow border border-gray-100 flex flex-col">
+                    <div class="text-center mb-8">
+                        <span class="bg-yellow-500 text-white font-bold px-5 py-2 rounded-full text-sm shadow-md inline-block">
+                            恋愛依存・自尊心ゼロ
+                        </span>
+                    </div>
+                    <p class="text-gray-600 italic mb-8 leading-loose flex-grow">「彼氏に尽くしては捨てられる繰り返し。でも、脳の使い方を変えたら『自分が主役』の人生に。今は理想の彼と婚約し、自分のビジネスも順調です。」</p>
+                    <p class="text-right font-bold text-gray-900 border-t border-gray-100 pt-6">- M.O 様 (20代 女性)</p>
+                </div>
+
+                <!-- Voice 6 -->
+                <div class="bg-white p-10 rounded-lg card-shadow border border-gray-100 flex flex-col">
+                    <div class="text-center mb-8">
+                        <span class="bg-yellow-500 text-white font-bold px-5 py-2 rounded-full text-sm shadow-md inline-block">
+                            売れない占い師・単価3000円
+                        </span>
+                    </div>
+                    <p class="text-gray-600 italic mb-8 leading-loose flex-grow">「『見えない世界』を扱う仕事だからこそ、現実的な『実績』が必要だと痛感しました。単価を10倍にしても予約が止まりません。魔法じゃなく、実力です。」</p>
+                    <p class="text-right font-bold text-gray-900 border-t border-gray-100 pt-6">- S.H 様 (50代 女性)</p>
+                </div>
+
+                <!-- Voice 7 -->
+                <div class="bg-white p-10 rounded-lg card-shadow border border-gray-100 flex flex-col">
+                    <div class="text-center mb-8">
+                        <span class="bg-yellow-500 text-white font-bold px-5 py-2 rounded-full text-sm shadow-md inline-block">
+                            会社倒産・自己破産経験者
+                        </span>
+                    </div>
+                    <p class="text-gray-600 italic mb-8 leading-loose flex-grow">「人生終わったと思っていました。でもボストンさんの『闇を燃料にしろ』という言葉で再起。過去の失敗経験こそが、今のコンサル事業の最大の強みになっています。」</p>
+                    <p class="text-right font-bold text-gray-900 border-t border-gray-100 pt-6">- K.N 様 (50代 男性)</p>
+                </div>
+
+                <!-- Voice 8 -->
+                <div class="bg-white p-10 rounded-lg card-shadow border border-gray-100 flex flex-col">
+                    <div class="text-center mb-8">
+                        <span class="bg-yellow-500 text-white font-bold px-5 py-2 rounded-full text-sm shadow-md inline-block">
+                            ノウハウコレクターの会社員
+                        </span>
+                    </div>
+                    <p class="text-gray-600 italic mb-8 leading-loose flex-grow">「知識だけあっても現実が変わらない理由が腑に落ちました。インプットを辞め、アウトプットと実績作りに全振りしたら、副業収入が本業の3倍になりました。」</p>
+                    <p class="text-right font-bold text-gray-900 border-t border-gray-100 pt-6">- T.S 様 (30代 男性)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6.5 よくある質問 (Q&A) -->
+    <section class="py-32 bg-white border-t border-gray-200">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-900 leading-relaxed">
+                よくある質問（Q&A）
+            </h2>
+            <div class="text-center mb-20">
+                <span class="inline-block bg-black text-gold px-6 py-2 rounded-full font-bold text-sm tracking-wider shadow-lg">
+                    回答者：ボストン（メンタル師匠）
+                </span>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Q1 -->
+                <details class="group bg-gray-50 rounded-xl border border-gray-200 card-shadow [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+                        <h3 class="font-bold text-lg md:text-xl pr-6 leading-relaxed flex items-start">
+                            <span class="text-red-600 mr-4 font-black text-2xl">Q1.</span>
+                            スピリチュアルやビジネスの知識が全くない初心者ですが、ついていけますか？
+                        </h3>
+                        <span class="transition group-open:rotate-180 text-gray-400">
+                            <i class="fas fa-chevron-down text-xl"></i>
+                        </span>
+                    </summary>
+                    <div class="px-8 pb-10 pt-2 text-gray-700 leading-loose border-t border-gray-200 bg-white rounded-b-xl">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-gold font-black text-2xl mt-1">A.</span>
+                            <div>
+                                <p class="mb-4 font-bold text-black">「初心者」という言葉を言い訳にするなら、今すぐ回れ右して帰りなさい。</p>
+                                <p class="mb-4">
+                                    ハッキリ言っておく。中途半端に「引き寄せ」だの「宇宙銀行」だの、フワフワした知識で頭がパンパンになっている人間より、何も知らないあなたの方がよほど見込みがある。
+                                </p>
+                                <p class="mb-4">
+                                    なぜなら、あなたの脳みそにこびりついた「楽して変われる」という思考の垢（あか）を削ぎ落とす手間が省けるからだ。
+                                </p>
+                                <p>
+                                    俺が教えるのは、妄想の世界の話じゃない。脳科学に基づいた「現実を変える物理的な手順」だ。知識がない？ 上等だ。空っぽの脳みそを持ってこい。俺が最短最速で「実績思考」という最強のOSをインストールしてやる。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Q2 -->
+                <details class="group bg-gray-50 rounded-xl border border-gray-200 card-shadow [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+                        <h3 class="font-bold text-lg md:text-xl pr-6 leading-relaxed flex items-start">
+                            <span class="text-red-600 mr-4 font-black text-2xl">Q2.</span>
+                            借金があり、経済的にかなり苦しいです。それでも参加すべきでしょうか？
+                        </h3>
+                        <span class="transition group-open:rotate-180 text-gray-400">
+                            <i class="fas fa-chevron-down text-xl"></i>
+                        </span>
+                    </summary>
+                    <div class="px-8 pb-10 pt-2 text-gray-700 leading-loose border-t border-gray-200 bg-white rounded-b-xl">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-gold font-black text-2xl mt-1">A.</span>
+                            <div>
+                                <p class="mb-4 font-bold text-black">金がないから諦める？ その思考こそが、あなたが貧乏な根本原因だ。</p>
+                                <p class="mb-4">
+                                    俺はかつて、信頼していた人間に裏切られ、1億円の借金を背負った。その時、俺が「金がないから」と縮こまっていたら、今の年商6億の現実は1ミリも存在していない。
+                                </p>
+                                <p class="mb-4">
+                                    いいか、よく聞け。「金ができたら参加します」という台詞は、脳のホメオスタシス（現状維持機能）が見せる幻影だ。そうやって一生、死ぬまで「準備中」の人生を送るつもりか？
+                                </p>
+                                <p>
+                                    今回は24回の分割払いも用意した。月々約13,000円だ。1日あたりコーヒー1杯分程度の投資すら、自分の人生を変えるために捻出できないなら、あなたはもう終わっている。借金や貧乏という「闇」は、あなたが跳ね上がるための最高の燃料だ。その燃料を燃やす覚悟があるなら、俺が引き上げてやる。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Q3 -->
+                <details class="group bg-gray-50 rounded-xl border border-gray-200 card-shadow [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+                        <h3 class="font-bold text-lg md:text-xl pr-6 leading-relaxed flex items-start">
+                            <span class="text-red-600 mr-4 font-black text-2xl">Q3.</span>
+                            本当に私でも変われるのでしょうか？ 成果が出るか不安です。
+                        </h3>
+                        <span class="transition group-open:rotate-180 text-gray-400">
+                            <i class="fas fa-chevron-down text-xl"></i>
+                        </span>
+                    </summary>
+                    <div class="px-8 pb-10 pt-2 text-gray-700 leading-loose border-t border-gray-200 bg-white rounded-b-xl">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-gold font-black text-2xl mt-1">A.</span>
+                            <div>
+                                <p class="mb-4 font-bold text-black">「変われるか」を他人に聞いている時点で、あなたはまだ「お客様気分」だ。</p>
+                                <p class="mb-4">
+                                    「お金を払えば、誰かが変えてくれる」<br>
+                                    その甘ったれた「クレクレ根性」が、あなたを痛いスピリチュアル難民にさせた元凶だとまだ気づかないのか？
+                                </p>
+                                <p class="mb-4">
+                                    このスクールに「返金保証」をつけていない理由を教えてやる。<br>
+                                    退路を断てない人間に、脳の書き換えなど不可能だからだ。
+                                </p>
+                                <p>
+                                    俺が提供するのは、俺自身が地獄から這い上がった実証済みのロードマップと、言い訳を許さない環境だ。やるのはあなただ。「変われるかどうか」じゃない。「変わる」と決めろ。決めた人間だけに、脳は新しい現実を見せ始める。成果への不安なんてものは、行動していない人間にだけ襲いかかる暇つぶしだ。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Q4 -->
+                <details class="group bg-gray-50 rounded-xl border border-gray-200 card-shadow [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+                        <h3 class="font-bold text-lg md:text-xl pr-6 leading-relaxed flex items-start">
+                            <span class="text-red-600 mr-4 font-black text-2xl">Q4.</span>
+                            仕事や家事で忙しく、時間が取れるか心配です。家族の反対もあります。
+                        </h3>
+                        <span class="transition group-open:rotate-180 text-gray-400">
+                            <i class="fas fa-chevron-down text-xl"></i>
+                        </span>
+                    </summary>
+                    <div class="px-8 pb-10 pt-2 text-gray-700 leading-loose border-t border-gray-200 bg-white rounded-b-xl">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-gold font-black text-2xl mt-1">A.</span>
+                            <div>
+                                <p class="mb-4 font-bold text-black">忙しい？ 家族が反対？ それは全部、あなたの脳が作り出した「やらないための正当な理由」だ。</p>
+                                <p class="mb-4">
+                                    時間は「ある」ものじゃない。「作る」ものだ。今の惨めな現実を変える優先順位が低いから、「忙しい」という言葉が出る。
+                                </p>
+                                <p class="mb-4">
+                                    そして家族が反対するのは当たり前だ。あなたがこれまで、何の結果も出さずに散財し、口だけ達者な「夢見る夢子」だったからだ。信用がないんだよ。<br>
+                                    家族を黙らせたいなら、説得なんてするな。「実績」で見せろ。
+                                </p>
+                                <p>
+                                    このスクールには24時間365日稼働するコミュニティがある。1日15分でもいい、脳を書き換えるワークに触れろ。環境に飛び込めば、強制的に意識は変わる。家族の反対すら「絶対に結果を出して見返してやる」というエネルギーに変えられないなら、一生誰かの顔色を窺って生きていけばいい。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Q5 -->
+                <details class="group bg-gray-50 rounded-xl border border-gray-200 card-shadow [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+                        <h3 class="font-bold text-lg md:text-xl pr-6 leading-relaxed flex items-start">
+                            <span class="text-red-600 mr-4 font-black text-2xl">Q5.</span>
+                            パソコンスキルに自信がありません。年齢的にも不安です。
+                        </h3>
+                        <span class="transition group-open:rotate-180 text-gray-400">
+                            <i class="fas fa-chevron-down text-xl"></i>
+                        </span>
+                    </summary>
+                    <div class="px-8 pb-10 pt-2 text-gray-700 leading-loose border-t border-gray-200 bg-white rounded-b-xl">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-gold font-black text-2xl mt-1">A.</span>
+                            <div>
+                                <p class="mb-4 font-bold text-black">年齢やスキルのせいにして、自分の可能性に蓋をするな。</p>
+                                <p class="mb-4">
+                                    俺のクライアントには、60代、70代から人生をひっくり返した人間など山ほどいる。脳には「可塑性（かそせい）」がある。死ぬまで脳は進化し続けるんだよ。<br>
+                                    「もう歳だから」「機械音痴だから」と自分で呪いをかけているのは、他ならぬあなた自身だ。
+                                </p>
+                                <p class="mb-4">
+                                    パソコン操作なんぞ、必要なら覚えればいいだけのこと。そんな些細なハードルで立ち止まるな。重要なのは小手先のスキルじゃない。「何があっても現実を変える」というマインドセットだ。
+                                </p>
+                                <p class="mb-4">
+                                    ここには仲間がいる。分からないことは聞けばいい。プライドを捨てて泥臭く学べる人間だけが、光を見ることができる。
+                                </p>
+                                <p class="mt-8 font-black text-xl text-black border-l-4 border-gold pl-4">
+                                    ボストンからの最後の通告だ。<br>
+                                    いつまで「被害者」のフリをして生きるつもりだ？<br>
+                                    あなたの人生の責任を取れるのは、世界であなた一人しかいない。<br>
+                                    覚悟が決まった人間だけ、扉を開けろ。俺は中で待っている。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. オファー (価格提示) -->
+    <section id="offer" class="py-32 bg-white relative overflow-hidden">
+        <div class="container mx-auto px-4 max-w-3xl text-center relative z-10">
+            <h2 class="text-3xl md:text-5xl font-black font-mincho mb-12 text-gray-900 leading-relaxed">
+                あなたの人生を取り戻すための
+                <!-- blockクラスで改行させ、mt-6で上部に余白を追加しました -->
+                <span class="text-gold block mt-6">「代償」</span>
+            </h2>
+
+            <p class="text-gray-600 mb-12 leading-loose font-medium text-lg">
+                私がこのメソッドに費やしたコストは、1億円の借金と数年の地獄です。<br>
+                本来なら100万円でも安すぎる。<br>
+                しかし、本気で変わりたいあなたのために、ギリギリのラインを設定しました。
+            </p>
+
+            <div class="bg-white border-2 border-yellow-500 p-12 md:p-16 rounded-2xl shadow-[0_0_50px_rgba(212,175,55,0.15)]">
+                <p class="text-gray-400 text-lg line-through decoration-red-600 decoration-2 mb-3">通常価格：500,000円</p>
+                <p class="text-red-600 font-bold mb-6 text-xl animate-pulse">今回限りの特別価格</p>
+                <div class="text-5xl md:text-7xl font-black text-gray-900 mb-8 tracking-tighter">
+                    298,000<span class="text-2xl font-bold">円(税込)</span>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-8 mb-12 border border-gray-100">
+                    <p class="text-yellow-700 font-bold text-xl mb-3">
+                        <i class="far fa-credit-card mr-2"></i>分割払い対応：月々13,000円〜
+                    </p>
+                    <p class="text-base text-gray-500">（1日あたり430円。コーヒー1杯我慢すれば、人生が変わる）</p>
+                </div>
+
+                <div class="mb-12 p-8 border border-red-200 bg-red-50 rounded text-left">
+                    <p class="font-bold text-red-600 mb-3 text-lg"><i class="fas fa-exclamation-triangle mr-2"></i>保証について</p>
+                    <p class="text-base text-gray-700 leading-loose">
+                        あえて「返金保証」はつけません。<br>
+                        覚悟のない人間を排除するためです。「覚悟のない人は来なくていい。その代わり、来た人は全力で引き上げる」これが私のスタンスです。
+                    </p>
+                </div>
+
+                <!-- 
+                    【決済リンク設定エリア】
+                    以下の href="https://your-payment-link.com" の部分を、
+                    Stripe、PayPal、銀行振込フォームなどの「実際の決済URL」に書き換えてください。
+                -->
+                <a href="https://your-payment-link.com" class="cta-button block w-full font-black text-2xl md:text-3xl py-8 rounded-lg hover:no-underline mb-8 leading-snug">
+                    覚悟を決めて、<br>スクールに参加する
+                </a>
+                
+                <div class="flex justify-center space-x-6 text-3xl text-gray-400">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-jcb"></i>
+                    <i class="fab fa-cc-amex"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. クロージング (限定性) -->
+    <section class="py-24 bg-gray-50 text-center border-t border-gray-200">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-10">
+                募集は<span class="text-red-600 bg-red-100 px-4 py-2 rounded">残り3日</span>で完全に終了します。
+            </h2>
+            <p class="text-gray-700 mb-12 leading-loose font-mincho text-lg">
+                二度と、こんなチャンスは来ないかもしれない。<br>
+                元の「痛スピ」生活に戻るか。<br>
+                それとも、泥臭く現実を変えて「光」を掴むか。<br><br>
+                選ぶのはあなただ。<br>
+                <span class="text-2xl font-bold text-black mt-6 block">だが、後悔だけはするな。</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- 9. 追伸 (PS) -->
+    <footer class="py-24 bg-white border-t border-gray-200">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h3 class="text-3xl font-bold text-gold mb-10 font-mincho">最後に。</h3>
+            <p class="text-gray-700 leading-loose mb-12 text-lg">
+                私は、あなたの弱さも、汚さも、全て知っている。<br>
+                なぜなら、それは過去の私だからだ。<br>
+                <br>
+                だから、安心して飛び込んでこい。<br>
+                傷だらけのあなたこそが、一番美しく輝ける原石だ。<br>
+                <br>
+                会場で待っている。
+            </p>
+            <p class="text-4xl font-mincho font-bold text-black text-right">ボストン</p>
+            
+            <div class="mt-28 text-center text-sm text-gray-500">
+                <p>&copy; 2024 脱・痛スピ＆実績思考習得スクール All Rights Reserved.</p>
+                <div class="mt-4 space-x-6">
+                    <a href="#" class="hover:text-gray-700 transition">特定商取引法に基づく表記</a>
+                    <a href="#" class="hover:text-gray-700 transition">プライバシーポリシー</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
